@@ -1,0 +1,28 @@
+.grand-parent{
+    background: url(https://spng.pinpng.com/pngs/s/557-5574311_12345-square-line-box-png-transparent-png.png);
+    width: 100%;
+}
+
+.parents{
+    gap: 5px;
+}
+.vertical-line {
+    background: rgb(180, 180, 222);
+    color: black;
+    margin-top: 10px;
+    z-index: 10;
+    opacity: 1;
+    width: 37px;
+    height: 3px;
+    align-self: start;
+    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: -5px; 
+}
+@media screen and (max-width:1000px) {
+    .parents{
+        flex-direction: column;
+    }
+}
